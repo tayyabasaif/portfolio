@@ -1,0 +1,179 @@
+/* General Styles */
+body {
+  background-color: #000000;
+  color: #ff8a47;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 430px) {
+  .body {
+    align-items: center;
+    margin: auto;
+    /* margin-top: 150px !important; */
+    /* font-size: 35px !important; */
+    /* font-style: oblique; */
+  }
+}
+
+@media (min-width: 1024px) {
+  .body {
+    align-items: center;
+    margin: auto;
+    /* margin-top: 150px !important; */
+    /* font-size: 50px !important; */
+    /* font-style: oblique; */
+  }
+}
+
+/* @media (min-width: 430px) {
+  .main-heading {
+    margin-top: 150px !important;
+    font-size: 35px !important;
+    font-style: oblique;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-heading {
+    margin-top: 150px !important;
+    font-size: 50px !important;
+    font-style: oblique;
+  }
+} */
+
+.main-heading span {
+  color: aliceblue;
+}
+
+.profile-img {
+  margin: auto !important;
+}
+
+.home {
+  /* border: #ff8a47 2px solid; */
+  align-items: center;
+  width: 1200px !important;
+  margin-top: 50px !important;
+}
+
+@media (min-width: 430px) {
+  .main-heading {
+    margin-top: 150px !important;
+    font-size: 35px !important;
+    font-style: oblique;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-heading {
+    margin-top: 150px !important;
+    font-size: 50px !important;
+    font-style: oblique;
+  }
+}
+
+
+/* Sidebar */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px !important;
+  flex-direction: column;
+  /* margin-left: 0px !important; */
+  margin-left: -158px !important;
+}
+
+.nav-link {
+  color: #ff8a47;
+}
+
+/* ABOUT */
+
+.about {
+  margin-top: 20px !important;
+  /* border: #ff8a47 2px solid; */
+  align-items: center;
+  width: 1200px !important;
+}
+
+/* Skills Section */
+
+.skills {
+  /* border: #ff8a47 2px solid; */
+  align-items: center;
+  width: 1200px !important;
+}
+
+.skills h1 {
+  margin-bottom: 0px !important;
+}
+
+/* Resume Section */
+.resume {
+  margin-top: 20px !important;
+  /* border: #ff8a47 2px solid; */
+  display: block;
+  width: 1200px !important;
+}
+
+
+/* Services Section */
+.service {
+  margin-top: 10px !important;
+  margin-bottom: 120px !important;
+  display: block;
+  width: 1200px !important;
+}
+
+.service h1 {
+  margin-bottom: 150px !important;
+  margin-top: 120px !important;
+}
+
+
+/* Projects Section */
+
+
+.projecting {
+  /* margin-top: 200px !important; */
+  /* border: #ff8a47 2px solid; */
+  display: block;
+  width: 1200px !important;
+  height: 600px !important;
+}
+
+.card {
+  height: 350px !important;
+  width: 270px !important;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/* Contact Section */
+.contact {
+  margin-bottom: 120px !important;
+  padding: 40px !important;
+
+  width: 1200px !important;
+  margin: auto;
+}
+
+.sub-title {
+  margin-bottom: 20px !important;
+  padding: 20px !important;
+}
+
+.contact form {
+  margin-top: 20px !important;
+}
+
+.btn {
+  background-color: #ff8a47;
+}
